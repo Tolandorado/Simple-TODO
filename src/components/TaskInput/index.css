@@ -1,0 +1,10 @@
+.taskModal {
+  padding: 0.6rem;
+  margin: 0.4rem;
+  width: 10rem;
+  height: 100%;
+}
+.modal {
+  display: flex;
+  align-items: center;
+}

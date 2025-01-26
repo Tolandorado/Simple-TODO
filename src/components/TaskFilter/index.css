@@ -1,0 +1,31 @@
+.task-filter {
+    position: relative;
+    display: inline-block;
+    width: 10rem;
+  }
+  
+.popup-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(46, 46, 46);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .popup-menu button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .task-filter button {
+    width: 10rem;
+  }
+
+  .popup-menu button:hover {
+    background-color: #f0f0f0;
+  }
